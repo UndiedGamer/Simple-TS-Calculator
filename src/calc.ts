@@ -43,4 +43,8 @@ rl.question("What operation do you want to do: \nType 'add' or 'subtract' or 'di
 			})
 		})
 	}
+	else {
+		console.log('Not a valid number')
+		process.exit(0)
+	}
 })
